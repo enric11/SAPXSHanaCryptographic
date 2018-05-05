@@ -3,7 +3,7 @@
 
 In this example we use 2 cryptographic libraries to secure our communications.
 
-Import the project, and use folder libs:
+Import the project and use folder libs: (important! these libs use a library called base64  included in project, don't forget this file)
 ```javascript
 $.import("CryptoExample.libs", "aesCrypt");
 var aesCrypt = $.CryptoExample.libs.aesCrypt;
